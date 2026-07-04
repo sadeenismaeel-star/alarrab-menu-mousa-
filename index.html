@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العراب بريميوم - المنيو</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-color: #0b0b0b; --primary-color: #ff7a00; --text-color: #ffffff; --card-bg: #141414; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 0; }
+        header { text-align: center; padding: 20px; }
+        h1 { color: var(--primary-color); }
+        .nav-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 15px; max-width: 600px; margin: auto; }
+        .nav-grid a { background: var(--card-bg); color: var(--text-color); padding: 10px; text-align: center; border-radius: 8px; text-decoration: none; border: 1px solid var(--primary-color); font-size: 0.8rem; }
+        .category { max-width: 600px; margin: 15px auto; background: var(--card-bg); padding: 15px; border-radius: 8px; }
+        .cat-title { color: var(--primary-color); border-bottom: 1px dashed var(--primary-color); padding-bottom: 5px; margin-bottom: 10px; }
+        .item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #222; }
+        .price { color: var(--primary-color); font-weight: bold; }
+        .footer-info { text-align: center; padding: 30px; }
+        .insta-link { color: var(--primary-color); text-decoration: none; font-weight: bold; font-size: 1.2rem; display: block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header id="top"><h1>العراب كافيه</h1></header>
+
+    <div class="nav-grid">
+        <a href="#top">الرئيسية</a>
+        <a href="#soft-drinks"> سوفت درينك</a>
+        <a href="#coffee">القهوة</a>
+        <a href="#iced-coffee">آيس كوفي</a>
+        <a href="#hot-choc">هوت شوكليت</a>
+        <a href="#iced-choc">آيس شوكليت</a>
+        <a href="#ice-cream">آيس كريم</a>
+        <a href="#mojito">موهيتو</a>
+        <a href="#milkshake">ميلك شيك</a>
+        <a href="#smoothie">سموذي</a>
+        <a href="#frappe">فرابتشينو</a>
+        <a href="#iced-tea">آيس تي</a>
+        <a href="#cocktail">كوكتيل</a>
+        <a href="#fresh-juices">عصائر طبيعية</a>
+        <a href="#dessert">حلويات</a>
+        <a href="#waffle">وافل</a>
+        <a href="#crepe">كريب</a>
+        <a href="#pancakes">بان كيك</a>
+    </div>
+<div id="soft-drinks" class="category">
+    <h2 class="cat-title">سوفت درينك</h2>
+    <div class="item"><span>ماء</span><span class="price">0.25</span></div>
+    <div class="item"><span>كنزا / ماتريكس</span><span class="price">0.50</span></div>
+    <div class="item"><span>ريد بول</span><span class="price">1.50</span></div>
+    <div class="item"><span>بوم بوم</span><span class="price">1.00</span></div>
+    <div class="item"><span>باربيكان</span><span class="price">0.75</span></div>
+</div>
+<div id="coffee" class="category">
+    <h2 class="cat-title">القهوة</h2>
+    <div class="item"><span>اسبريسو سنجل</span><span class="price">1.00</span></div>
+    <div class="item"><span>اسبريسو دبل</span><span class="price">1.50</span></div>
+    <div class="item"><span>امريكانو كوفي</span><span class="price">1.25</span></div>
+    <div class="item"><span>كابتشينو</span><span class="price">1.75</span></div>
+    <div class="item"><span>فلات وايت</span><span class="price">1.75</span></div>
+    <div class="item"><span>سبانيش لاتيه</span><span class="price">1.75</span></div>
+    <div class="item"><span>كاراميل ميكاتو</span><span class="price">1.75</span></div>
+    <div class="item"><span>موكا</span><span class="price">1.75</span></div>
+    <div class="item"><span>وايت موكا</span><span class="price">1.75</span></div>
+    <div class="item"><span>قهوة تركية سنجل</span><span class="price">0.75</span></div>
+    <div class="item"><span>قهوة تركية دبل</span><span class="price">1.00</span></div>
+    <div class="item"><span>كورتادو</span><span class="price">1.75</span></div>
+</div>
+<div id="iced-coffee" class="category">
+    <h2 class="cat-title">آيس كوفي</h2>
+    <div class="item"><span>آيس بستاشيو لاتيه</span><span class="price">2.25</span></div>
+    <div class="item"><span>آيس سبانيش لاتيه</span><span class="price">1.75</span></div>
+    <div class="item"><span>آيس موكا لاتيه</span><span class="price">1.75</span></div>
+    <div class="item"><span>آيس وايت لاتيه</span><span class="price">1.75</span></div>
+    <div class="item"><span>آيس لاتيه</span><span class="price">1.50</span></div>
+    <div class="item"><span>آيس امريكانو</span><span class="price">1.00</span></div>
+</div>
+
+    <!-- الأقسام  هنا --><div id="mojito" class="category">
+    <h2 class="cat-title">موهيتو</h2>
+    <div class="item"><span>موهيتو كلاسيك</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو توت</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو باشن فروت</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو فراولة</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو توت بري</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو بطيخ</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو كيوي</span><span class="price">1.75</span></div>
+    <div class="item"><span>موهيتو ريد بول</span><span class="price">3.00</span></div>
+</div>
+
+<div id="smoothie" class="category">
+    <h2 class="cat-title">سموذي</h2>
+    <div class="item"><span>سموذي مانجا</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي فراولة</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي توت مشكل</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي ليمون ونعنع</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي باشن فروت</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي موز مع فراولة</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي مانجا وباشن</span><span class="price">2.00</span></div>
+    <div class="item"><span>سموذي كيوي</span><span class="price">2.00</span></div>
+</div>
+<div id="iced-tea" class="category">
+    <h2 class="cat-title">آيس تي</h2>
+    <div class="item"><span>آيس تي خوخ</span><span class="price">1.25</span></div>
+    <div class="item"><span>آيس تي ليمون</span><span class="price">1.25</span></div>
+    <div class="item"><span>آيس تي بلاك بيري</span><span class="price">1.25</span></div>
+</div>
+<div id="fresh-juices" class="category">
+    <h2 class="cat-title">عصائر طبيعية</h2>
+    <div class="item"><span>برتقال</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>برتقال مع ليمون</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>ليمون</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>ليمون ونعناع</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>رمان</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>رمان واناناس</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>رمان وعنب</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>رمان واناناس وبرتقال</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>رمان وبرتقال</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>فيتامين سي (اناناس وكيوي وبرتقال)</span><span>كبير: 2.00 | صغير: 1.50</span></div>
+    <div class="item"><span>شمام</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>شمام وفراولة</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>بطيخ</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>بطيخ وفراولة</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>فراولة</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>كيوي</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>كيوي وليمون</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>كيوي مع فراولة</span><span>كبير: 1.75 | صغير: 1.25</span></div>
+    <div class="item"><span>اناناس</span><span>كبير: 2.25 | صغير: 1.75</span></div>
+    <div class="item"><span>اناناس مع فراولة</span><span>كبير: 2.25 | صغير: 1.75</span></div>
+    <div class="item"><span>اناناس مع كيوي</span><span>كبير: 2.25 | صغير: 1.75</span></div>
+    <div class="item"><span>اناناس مع مانجا</span><span>كبير: 2.25 | صغير: 1.75</span></div>
+</div>
+  <div id="cocktail" class="category">
+    <h2 class="cat-title">كوكتيل</h2>
+    <div class="item"><span>كوكتيل قطع</span><span>4.00 | 3.00</span></div> <!-- تم التعديل بناءً على الصورة -->
+    <div class="item"><span>كوكتيل قطع مع قشطة وعسل</span><span>4.00 | 3.00</span></div>
+    <div class="item"><span>كوكتيل مع قطع وآيس كريم</span><span>4.00 | 3.00</span></div>
+    <div class="item"><span>امبراطور موز ومانجا</span><span>3.50 | 2.50</span></div>
+    <div class="item"><span>مانجا فرغلي</span><span>2.50 | 2.00</span></div>
+    <div class="item"><span>مانجا مع فراولة</span><span>2.50 | 2.00</span></div>
+    <div class="item"><span>جالكسي سادة</span><span>2.50 | 2.00</span></div>
+    <div class="item"><span>جالكسي مع قشطة وعسل ومكسرات</span><span>3.75 | 2.75</span></div>
+    <div class="item"><span>مانجا مع فانيلا</span><span>3.25 | 2.75</span></div>
+    <div class="item"><span>افوكادو سادة</span><span>2.50 | 2.00</span></div>
+    <div class="item"><span>افوكادو قشطة وعسل ومكسرات</span><span>3.50 | 2.50</span></div>
+    <div class="item"><span>سلطة فواكه</span><span>--- | 3.00</span></div>
+    <div class="item"><span>سلطة فواكه مع قشطة وعسل ومكسرات</span><span>--- | 4.00</span></div>
+    <div class="item"><span>سلطة فخفخينا آيس كريم</span><span>--- | 4.00</span></div>
+    <div class="item"><span>موز وحليب</span><span>1.75 | 1.25</span></div>
+    <div class="item"><span>فراولة وحليب</span><span>1.75 | 1.25</span></div>
+    <div class="item"><span>موز وحليب وتمر</span><span>1.75 | 1.25</span></div>
+    <div class="item"><span>فراولة وموز وبرتقال</span><span>1.75 | 1.25</span></div>
+    <div class="item"><span>باشن ومانجا</span><span>2.75 | 2.25</span></div>
+    <div class="item"><span>باشن واناناس</span><span>2.75 | 2.25</span></div>
+    <div class="item"><span>باشن وفراولة</span><span>2.75 | 2.25</span></div>
+    <div class="item"><span>تروبيكانا</span><span>2.75 | 2.25</span></div>
+</div>
+
+<div id="milkshake" class="category">
+    <h2 class="cat-title">ميلك شيك</h2>
+    <div class="item"><span>ميلك شيك فانيلا</span><span class="price">2.50</span></div>
+    <div class="item"><span>ميلك شيك عربيه</span><span class="price">2.50</span></div>
+    <div class="item"><span>ميلك شيك فراولة</span><span class="price">2.50</span></div>
+    <div class="item"><span>ميلك شيك اوريو</span><span class="price">2.50</span></div>
+    <div class="item"><span> ميلك شيك تشيز كيك</span><span class="price">2.50</span></div>
+    <div class="item"><span> ميلك شيك سنيكرز </span><span class="price">2.50</span></div>
+    <div class="item"><span> ميلك شيك كندر </span><span class="price">2.50</span></div>
+    <div class="item"><span>ميلك شيك نوتيلا </span><span class="price">2.50</span></div>
+    <div class="item"><span></span>ميلك شيك شوكليت</span><span class="price">2.50</span></div>
+</div>
+<div id="frappe" class="category">
+    <h2 class="cat-title">فرابتشينو</h2>
+    <div class="item"><span>فرابتشينو كراميل</span><span class="price">2.50</span></div>
+    <div class="item"><span>فرابتشينو شوكليت</span><span class="price">2.50</span></div>
+    <div class="item"><span>فرابتشينو أوريو</span><span class="price">2.50</span></div>
+    <div class="item"><span>فرابتشينو لوتس</span><span class="price">2.50</span></div>
+    <div class="item"><span>فرابتشينو نوتيلا</span><span class="price">2.50</span></div>
+    <div class="item"><span>فرابتشينو بستاشيو</span><span class="price">2.50</span></div>
+</div>
+<div id="iced-choc" class="category">
+    <h2 class="cat-title">آيس شوكليت</h2>
+    <div class="item"><span>آيس نوتيلا</span><span class="price">2.00</span></div>
+    <div class="item"><span>آيس لوتس</span><span class="price">2.00</span></div>
+    <div class="item"><span>آيس بستاشيو</span><span class="price">2.00</span></div>
+    div class="item"><span>آيس </span><span class="price">2.00</span></div>
+    
+</div>
+<div id="hot-choc" class="category">
+    <h2 class="cat-title">هوت شوكليت</h2>
+    <div class="item"><span>هوت نوتيلا</span><span class="price">1.75</span></div>
+    <div class="item"><span>هوت لوتس</span><span class="price">1.75</span></div>
+    <div class="item"><span>هوت بستاشيو</span><span class="price">1.75</span></div>
+   <div class="item"><span></span>هوت شوكليت</span><span class="price">1.75</span></div>
+</div>
+<div id="ice-cream" class="category">
+    <h2 class="cat-title">آيس كريم</h2>
+    <div class="item"><span>آيس كريم شوكولاتة <small>(مذاق الشوكولاتة الغني)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم فانيلا <small>(كلاسيكية لا تُمل)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم عربية <small>(نكهة المستكة الأصيلة)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم سنكيرز <small>(طعم الشوكولاتة والفول السوداني)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم أوريو <small>(قرمشة الأوريو اللذيذة)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم تشيز كيك <small>(مزيج مميز لا يقاوم)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم لوتس <small>(نكهة اللوتس الغنية)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم كندر <small>(عشاق كندر المفضل)</small></span><span class="price">0.85</span></div>
+    <div class="item"><span>آيس كريم فراولة <small>(انتعاش الفراولة الطبيعية)</small></span><span class="price">0.85</span></div>
+</div>
+<div id="waffle" class="category">
+    <h2 class="cat-title">وافل</h2>
+    <div class="item"><span>وافل مكس <small></small></span><span class="price">2.25</span></div>
+    <div class="item"><span>وافل ببلز كلاسيك <small></small></span><span class="price">1.75</span></div>
+    <div class="item"><span>وافل ببلز ميكس اضافة بستاشيو <small></small></span><span class="price">2.75</span></div>
+    <div class="item"><span>وافل ببلز لوتس <small></small></span><span class="price">2.75</span></div>
+    <div class="item"><span>وافل ببلز بستاشيو <small></small></span><span class="price">3.25</span></div>
+    <div class="item"><span>وافل فواكه <small></small></span><span class="price">2.25</span></div>
+</div>
+<div id="crepe" class="category">
+    <h2 class="cat-title">كريب</h2>
+    <div class="item"><span>كريب كلاسيك</span><span class="price">2.25</span></div>
+    <div class="item"><span>كريب مكس</span><span class="price">2.75</span></div>
+    <div class="item"><span>كريب مكس اضافة بستاشيو</span><span class="price">3.25</span></div>
+    <div class="item"><span>كريب لوتس</span><span class="price">2.75</span></div>
+    <div class="item"><span>كريب بستاشيو</span><span class="price">3.25</span></div>
+    <div class="item"><span>فوتشيني كريب مكس</span><span class="price">2.00</span></div>
+    <div class="item"><span>فوتشيني كريب كلاسيك</span><span class="price">1.50</span></div>
+    <div class="item"><span>فوتشيني كريب مكس اضافة بستاشيو</span><span class="price">2.50</span></div>
+    <div class="item"><span>فوتشيني كريب لوتس</span><span class="price">2.50</span></div>
+    <div class="item"><span>فوتشيني كريب بستاشيو</span><span class="price">3.00</span></div>
+    <div class="item"><span>فوتشيني كريب فواكه</span><span class="price">2.00</span></div>
+</div>
+<div id="pancakes" class="category">
+    <h2 class="cat-title">بان كيك</h2>
+    <div class="item"><span>بان كيك مكس</span><span class="price">2.50</span></div>
+    <div class="item"><span>بان كيك كلاسيك</span><span class="price">2.00</span></div>
+    <div class="item"><span>بان كيك ميكس إضافة بستاشيو</span><span class="price">3.00</span></div>
+    <div class="item"><span>بان كيك لوتس</span><span class="price">3.00</span></div>
+    <div class="item"><span>بان كيك بستاشيو</span><span class="price">3.50</span></div>
+    <div class="item"><span>بان كيك فواكه</span><span class="price">2.50</span></div>
+    <div class="item"><span>ميني بان كيك مكس</span><span class="price">2.50</span></div>
+    <div class="item"><span>ميني بان كيك كلاسيك</span><span class="price">2.00</span></div>
+    <div class="item"><span>ميني بان كيك ميكس إضافة بستاشيو</span><span class="price">3.00</span></div>
+    <div class="item"><span>ميني بان كيك لوتس</span><span class="price">3.00</span></div>
+    <div class="item"><span>ميني بان كيك بستاشيو</span><span class="price">3.50</span></div>
+    <div class="item"><span>ميني بان كيك فواكه</span><span class="price">2.50</span></div>
+    
+    <!-- البوكس البرتقالي للإضافات -->
+    <div style="background-color: #ff9f43; color: white; padding: 10px; border-radius: 10px; text-align: center; margin-top: 15px; font-weight: bold;">
+        أي إضافة 0.50
+    </div>
+</div>
+
+
+    <div class="footer-info">
+        <p>جرش • بوابة عمان</p>
+        <a href="https://www.instagram.com/alarrab.premium?igsh=MWtpc2l4dWJwY2N5NA==" class="insta-link" target="_blank">انستقرام</a>
+    </div>
+</body>
+</html>
+
