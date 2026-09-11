@@ -277,7 +277,55 @@
     <div class="footer-info">
         <p>جرش • بوابة عمان</p>
         <a href="https://www.instagram.com/alarrab.premium?igsh=MWtpc2l4dWJwY2N5NA==" class="insta-link" target="_blank">انستغرام</a>
+  
     </div>
+    <!-- تنسيق الزر - يضاف داخل وسم <style> في أعلى الملف -->
+<style>
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* جهة اليمين */
+    width: 45px;
+    height: 45px;
+    background-color: #ff6600; /* لون أورنج بنفس هوية المنيو */
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none; /* مخفي افتراضياً ويظهر عند التمرير */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#scrollTopBtn:active {
+    transform: scale(0.9);
+}
+</style>
+
+<!-- زر الصعود للأعلى والبرمجة الخاصة به - يضاف قبل وسم </body> في نهاية الملف -->
+<button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+<script>
+    window.onscroll = function() {
+        let btn = document.getElementById("scrollTopBtn");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
 </body>
 </html>
 
